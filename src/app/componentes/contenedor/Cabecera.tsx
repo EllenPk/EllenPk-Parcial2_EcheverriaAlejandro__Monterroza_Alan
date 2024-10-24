@@ -41,16 +41,16 @@ export const Cabecera = () => {
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
-                  Menus
+                  Vuelos
                 </a>
                 <ul className="dropdown-menu">
                   <li>
-                    <NavLink className="dropdown-item" to="/mencree">
+                    <NavLink className="dropdown-item" to="/consul">
                        Consultar vuelos
                     </NavLink>
                   </li>
                   <li>
-                    <NavLink className="dropdown-item" to="/menlis">
+                    <NavLink className="dropdown-item" to="/hora">
                       Horarios
                     </NavLink>
                   </li>
@@ -58,7 +58,7 @@ export const Cabecera = () => {
                     <hr className="dropdown-divider" />
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <a className="dropdown-item" href="ravuel">
                       Rastrear vuelo
                     </a>
                   </li>
@@ -66,7 +66,7 @@ export const Cabecera = () => {
               </li>
 
               <li className="nav-item">
-                <NavLink className="nav-link" to="/menuacer">
+                <NavLink className="nav-link" to="/nosoacer">
                   Acerca de nosotros
                 </NavLink>
               </li>
